@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* A code that runs if different numbers are displayed tells you if its negative or positive */
-
-/* The betty style of coding is used here */
+/* A code that runs if different numbers are displayed tells you if its negative or positive
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
         int n;
@@ -24,7 +25,7 @@ int main(void)
         }
         /* if the number is less than 0: is negative*/
         
-        else
+        else 
         {
             printf("%d is negative\n", n);
         }
