@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* A code that runs if different numbers are displayed tells
-*you if its negative or positive 
+/**
+ * A code that runs if different numbers are displayed tells
+ * you if its negative or positive
+ *
 */
 int main(void)
 {
